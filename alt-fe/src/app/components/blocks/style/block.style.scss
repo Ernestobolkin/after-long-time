@@ -1,0 +1,32 @@
+.grass{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:  url('../Imgs/Grass.png');
+}
+
+.dirt{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:  url('../Imgs/Dirt.png');
+
+}
+
+.sky{
+  background-color: rgb(233, 250, 255); 
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:  url('../Imgs/wallpaper.jpeg');
+
+}
+
+.block{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.block:hover{
+  filter: drop-shadow(1px 1px 1.2px black);
+}
